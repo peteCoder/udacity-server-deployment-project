@@ -9,7 +9,7 @@ spec:
       targetPort: 8080
   selector:
     app: simple-jwt-api
----
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -31,8 +31,8 @@ spec:
     spec:
       containers:
         - name: simple-jwt-api
-          image: petecoder/simple-jwt-api
-          # image: CONTAINER_IMAGE
+          # image: petecoder/simple-jwt-api
+          image: CONTAINER_IMAGE
           securityContext:
             privileged: false
             readOnlyRootFilesystem: false
