@@ -16,4 +16,3 @@ metadata:
   namespace: kube-system
   resourceVersion: "5513"
   uid: be87a658-1813-4e2b-9f80-8c655748ba66
-
