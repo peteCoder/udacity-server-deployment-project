@@ -31,6 +31,7 @@ spec:
     spec:
       containers:
         - name: simple-jwt-api
+          # image: petecoder/simple-jwt-api
           image: CONTAINER_IMAGE
           securityContext:
             privileged: false
