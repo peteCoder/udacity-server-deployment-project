@@ -31,11 +31,9 @@ htmlcov/
 .coverage
 .coverage.*
 *,cover
-
-
-
 .envrc
 .direnv
+
 
 .github/**
 .github/
